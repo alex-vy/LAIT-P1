@@ -1,0 +1,60 @@
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+# Environment configuration
+/.env
+/.env.test
+/.env.example
+
+# Development files and logs
+/phpunit.xml
+/phpunit.xml.dist
+/.php_cs.cache
+/.phpunit.result.cache
+*.log
+
+# IDE files
+/.idea/
+/.vscode/
+/nbproject/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Composer dependencies
+/vendor/
+
+# Cache and logs
+/var/
+/var/cache/
+/var/log/
+/var/test/
+/var/tmp/
+
+# Build and deployment artifacts
+/public/bundles/
+/node_modules/
+/dist/
+
+# Docker-related files
+/docker-compose.override.yml
+/.dockerignore
+/docker-compose.yaml
+/docker-compose.yml
+/Dockerfile
+
+# Temporary and backup files
+*.swp
+*.bak
+*.tmp
+*.dist
+*.cache
+*.php~
